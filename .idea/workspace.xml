@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54e9f323-9399-4fe6-a6d1-a70e042bd790" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="54e9f323-9399-4fe6-a6d1-a70e042bd790" name="Default Changelist" comment="取消 广告列表/添加广告">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Admin/Tpl/Item/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/Tpl/Item/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/Cache/Admin/Cache/d18520b20d1e53f5523367cbcf403dba.php" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Cache/Admin/Cache/d18520b20d1e53f5523367cbcf403dba.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/Common/zh-cn/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Common/zh-cn/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/Lib/Action/IndexAction.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Home/Lib/Action/IndexAction.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Cache/Access.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Cache/Admin/Cache/2f5495b524f58aec0d93d7baedd9b444.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Cache/Admin/Cache/331806f99fcff057f2b160f6b785997f.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Cache/Admin/Cache/55a591dc4c5b4e20cf3afb1d2ad5d926.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Cache/Admin/Cache/7dd6774f4157055d111530a32e5a1b1d.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Cache/Admin/Cache/9d351319ad14615250994bfbf5966d32.php" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Cache/Admin/Cache/9d351319ad14615250994bfbf5966d32.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Cache/Admin/Cache/b0862b80ea222440ec6b2046e08990ca.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Cache/Admin/Data/_fields/mitaodh_com.tagsrelationship.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Cache/Admin/Data/_fields/mitaodh_com.tagstype.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Cache/Admin/Logs/19_07_15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Cache/Home/Cache/2ddfdbac821c73861dde64b02e30c9bc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Cache/Home/Cache/55f3b80ee62b1c6bb22a64f08dc262da.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Cache/Home/Cache/7defe91b02fd74911f6d95f001ade246.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Cache/Home/Cache/968d43cb49916fe2aa270c6ca4cc5f26.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Cache/Home/Cache/d2bfdc092a5a96e4d7e00412369b2a0a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Cache/Home/Logs/19_07_15.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,28 +30,76 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/Lib/Action/UserAction.class.php">
+        <entry file="file://$PROJECT_DIR$/Admin/Lib/Action/CommonAction.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+            <state relative-caret-position="339">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/Lib/Action/ItemAction.class.php">
+        <entry file="file://$PROJECT_DIR$/Admin/Tpl/Extend/advert.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+            <state relative-caret-position="420">
+              <caret line="32" column="71" lean-forward="true" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/Tpl/Extend/advertEdit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="78" column="73" selection-start-line="78" selection-start-column="73" selection-end-line="78" selection-end-column="111" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/Lib/Widget/MainWidget.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Admin/Tpl/Item/index.html">
+        <entry file="file://$PROJECT_DIR$/Home/Lib/Action/IndexAction.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="37" column="66" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="66" />
+            <state relative-caret-position="510">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Home/Tpl/Black/Index_index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/Assets/js/uploadify/jquery.uploadify.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="579">
+              <caret line="979" lean-forward="true" selection-start-line="979" selection-end-line="979" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/Lib/Action/PublicAction.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="631">
+              <caret line="74" column="28" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -46,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/Common/zh-cn/common.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="92" column="14" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="14" />
+            <state relative-caret-position="150">
+              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding>
                 <element signature="e#17#23#0" expanded="true" />
                 <element signature="e#98#104#1" expanded="true" />
@@ -70,6 +131,24 @@
       <find>action</find>
       <find>搜索</find>
       <find>status</find>
+      <find>添加项目</find>
+      <find>添加</find>
+      <find>系统信息</find>
+      <find>项目</find>
+      <find>height=&quot;35&quot;</find>
+      <find>mainac</find>
+      <find>item</find>
+      <find>proccess</find>
+      <find>操作失败</find>
+      <find>proccess(</find>
+      <find>uploadify</find>
+      <find>__APP__</find>
+      <find>advert_list</find>
+      <find>advert</find>
+      <find>upload(</find>
+      <find>file_upload</find>
+      <find>$li.des</find>
+      <find>TagsType</find>
     </findStrings>
     <dirStrings>
       <dir>D:\mitaodh.com\Admin</dir>
@@ -84,10 +163,25 @@
         <option value="$PROJECT_DIR$/Public/Common/config.db.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/admin.php" />
-        <option value="$PROJECT_DIR$/Public/Common/zh-cn/common.php" />
+        <option value="$PROJECT_DIR$/Admin/Tpl/Item/edit.html" />
         <option value="$PROJECT_DIR$/Admin/Tpl/Item/index.html" />
+        <option value="$PROJECT_DIR$/Admin/Lib/Widget/Main/index.html" />
+        <option value="$PROJECT_DIR$/Public/Common/zh-cn/common.php" />
+        <option value="$PROJECT_DIR$/Admin/Lib/Action/ItemAction.class.php" />
+        <option value="$PROJECT_DIR$/Admin/Lib/Action/CommonAction.class.php" />
+        <option value="$PROJECT_DIR$/Public/Assets/js/uploadify/jquery.uploadify.js" />
+        <option value="$PROJECT_DIR$/Admin/Tpl/Extend/advertEdit.html" />
+        <option value="$PROJECT_DIR$/Admin/Lib/Widget/MainWidget.class.php" />
+        <option value="$PROJECT_DIR$/Admin/Tpl/Extend/advert.html" />
+        <option value="$PROJECT_DIR$/Home/Lib/Action/IndexAction.class.php" />
       </list>
     </option>
+  </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="9001" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="05db6206-71ae-4941-9fdb-62d36633b4f3" name="Apache" />
+    </servers>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
@@ -112,20 +206,33 @@
             <path>
               <item name="mitaodh.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="mitaodh.com" type="462c0819:PsiDirectoryNode" />
-              <item name="Public" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mitaodh.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="mitaodh.com" type="462c0819:PsiDirectoryNode" />
-              <item name="Public" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mitaodh.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="mitaodh.com" type="462c0819:PsiDirectoryNode" />
-              <item name="Public" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-              <item name="zh-cn" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mitaodh.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mitaodh.com" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="Tpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mitaodh.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mitaodh.com" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="Tpl" type="462c0819:PsiDirectoryNode" />
+              <item name="Black" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,9 +243,10 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../w/laravel_admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../w/qvod_admin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -152,6 +260,18 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="PHP Web Page.index.php">
+    <configuration name="admin.php" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="Apache" start_url="http://dh.me/admin.php?m=Extend&amp;a=advert&amp;do=edit&amp;id=2">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="Apache" start_url="http://dh.me/">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Web Page.admin.php" />
+      <item itemvalue="PHP Web Page.index.php" />
+    </list>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -164,30 +284,72 @@
       <updated>1563179644268</updated>
       <workItem from="1563179645946" duration="114000" />
       <workItem from="1563179865377" duration="757000" />
-      <workItem from="1563180648093" duration="7071000" />
+      <workItem from="1563180648093" duration="18006000" />
     </task>
+    <task id="LOCAL-00001" summary="项目列表添加状态/链接列 一键检测/一键删除按钮">
+      <created>1563245635815</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563245635815</updated>
+    </task>
+    <task id="LOCAL-00002" summary="广告列表/添加广告">
+      <created>1563249322372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563249322372</updated>
+    </task>
+    <task id="LOCAL-00003" summary="取消 广告列表/添加广告">
+      <created>1563260438782</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563260438782</updated>
+    </task>
+    <task id="LOCAL-00004" summary="广告列表">
+      <created>1563261194489</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563261194489</updated>
+    </task>
+    <task id="LOCAL-00005" summary="advert">
+      <created>1563261933057</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563261933057</updated>
+    </task>
+    <task id="LOCAL-00006" summary="img width">
+      <created>1563262129613</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563262129613</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7942000" />
+    <option name="totallyTimeSpent" value="18877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4961915" weight="0.18454936" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4961915" weight="0.184375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5038085" side_tool="true" weight="0.184375" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3188248" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2567714" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3297062" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24047878" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.23943663" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32921347" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3297062" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.49213484" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4767064" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -197,19 +359,19 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4961915" visible="true" weight="0.18454936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4961915" visible="true" weight="0.184375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5038085" side_tool="true" weight="0.184375" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3188248" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2567714" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3297062" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24047878" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.23943663" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32921347" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3297062" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.49213484" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4767064" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -221,6 +383,41 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目列表添加状态/链接列 一键检测/一键删除按钮" />
+    <MESSAGE value="广告列表/添加广告" />
+    <MESSAGE value="取消 广告列表/添加广告" />
+    <MESSAGE value="广告列表" />
+    <MESSAGE value="advert" />
+    <MESSAGE value="img width" />
+    <option name="LAST_COMMIT_MESSAGE" value="img width" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Admin/Lib/Action/PublicAction.class.php</url>
+          <line>58</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Admin/Lib/Action/PublicAction.class.php</url>
+          <line>59</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Admin/Lib/Action/PublicAction.class.php</url>
+          <line>60</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Home/Lib/Action/IndexAction.class.php</url>
+          <line>44</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Public/Common/config.php">
@@ -237,13 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="76794" selection-start-column="76794" selection-end-column="76794" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Lib/Action/PublicAction.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -299,11 +489,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Admin/Tpl/Extend/link.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Admin/Conf/tags.php">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Tpl/Extend/message.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/ThinkPHP/Common/runtime.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Tpl/Item/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#volist#0;n#ul#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#5559#5565#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Tpl/TagsType/category.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Tpl/Item/check.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="82" column="3" lean-forward="true" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Tpl/Item/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="69" lean-forward="true" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+          <folding>
+            <element signature="e#977#983#0" expanded="true" />
+            <element signature="e#984#990#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Lib/Widget/Main/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="54" column="38" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="38" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Admin/Lib/Action/UserAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -312,10 +560,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Uploads/201510/557232f881876.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Uploads/201510/ads.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/data.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Lib/Action/ItemAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Lib/Action/ExtendAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/ThinkPHP/Extend/Library/ORG/Util/UploadFile.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-882">
+          <caret line="191" column="20" selection-start-line="191" selection-start-column="20" selection-end-line="191" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/ThinkPHP/Lib/Behavior/ContentReplaceBehavior.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Public/Common/zh-cn/common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="92" column="14" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="14" />
+        <state relative-caret-position="150">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding>
             <element signature="e#17#23#0" expanded="true" />
             <element signature="e#98#104#1" expanded="true" />
@@ -323,17 +608,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Lib/Action/ItemAction.class.php">
+    <entry file="file://$PROJECT_DIR$/Admin/Lib/Action/CommonAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        <state relative-caret-position="339">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Tpl/Item/index.html">
+    <entry file="file://$PROJECT_DIR$/Admin/Lib/Action/PublicAction.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="37" column="66" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="66" />
+        <state relative-caret-position="631">
+          <caret line="74" column="28" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="364" column="4" selection-start-line="364" selection-start-column="4" selection-end-line="364" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Assets/js/uploadify/jquery.uploadify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="979" lean-forward="true" selection-start-line="979" selection-end-line="979" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Tpl/Extend/advertEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="78" column="73" selection-start-line="78" selection-start-column="73" selection-end-line="78" selection-end-column="111" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#form#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Lib/Widget/MainWidget.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/Tpl/Black/Index_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/Lib/Model/TagsViewModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Tpl/Extend/advert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="71" lean-forward="true" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/Lib/Action/IndexAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
