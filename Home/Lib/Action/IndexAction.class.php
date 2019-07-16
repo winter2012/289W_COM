@@ -40,6 +40,8 @@ class IndexAction extends CommonAction {
 			$list[] = $li;
 		}
 		$this->seoSetting($tags);
+        $advert = D('Advert')->query('SELECT name,image,link,target,description FROM __TABLE__ advert WHERE status = 1 ORDER BY sort_order DESC');
+		$this->assign('advert',$advert);
 		$this->assign('list',$list);
         	$this->display();
     }
