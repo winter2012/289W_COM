@@ -11,6 +11,7 @@ return array(
 	'logo'        => 'Logo',
 	'keywords'    => '关键词',
 	'description' => '描述',
+	'url'         => '链接',
 	'bottom'      => '底部',
 	'icp'         => 'ICP 备案号',
 	
@@ -88,7 +89,9 @@ return array(
     'download'   => '下载',
 	'backup'     => '备份',
 	'search'     => '搜索', 
-	'query'      => '查询', 
+	'oneKeyTest' => '一键检测',
+	'oneKeyDel'  => '一键删除',
+	'query'      => '查询',
 	'image'      => '图片', 
 	'details'    => '详细',
 	'other'      => '其它',

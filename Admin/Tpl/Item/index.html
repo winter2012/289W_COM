@@ -16,6 +16,8 @@
                     </volist>
                 </select>
                 <button type="submit" class="btn btn-ok">{:lang('search')}</button>
+                <button type="submit" class="btn btn-ok">{:lang('oneKeyTest')}</button>
+                <button type="submit" class="btn btn-ok">{:lang('oneKeyDel')}</button>
                 <input type="hidden" name="orderby" id="orderby" value="{$_GET.orderby}" />
             	<input type="hidden" name="sort" id="sort" value="{$_GET.sort}" />
             	<input type="hidden" name="s" id="s" value="/Item/index" />
@@ -32,6 +34,8 @@
                             <th class="ui-table-hcell" width="200">{:lang('title')}</th>
                             <th class="ui-table-hcell">{:lang('category')}</th>
                             <th class="ui-table-hcell">{:lang('description')}</th>
+                            <th class="ui-table-hcell" width="100">{:lang('status')}</th>
+                            <th class="ui-table-hcell">{:lang('url')}</th>
 							<th class="ui-table-hcell <eq name='_GET.orderby' value='click'>ui-table-hcell-<eq name='_GET.sort' value='asc'>asc<else />desc</eq></eq>" onmouseover="$(this).addClass('ui-table-hcell-hover')" onmouseout="$(this).removeClass('ui-table-hcell-hover')" onclick="orderBy($(this),'click')" width="80">{:lang('click')}<div class="ui-table-hsort"></div></th>
                             <th class="ui-table-hcell <eq name='_GET.orderby' value='id'>ui-table-hcell-<eq name='_GET.sort' value='asc'>asc<else />desc</eq></eq>" onmouseover="$(this).addClass('ui-table-hcell-hover')" onmouseout="$(this).removeClass('ui-table-hcell-hover')" onclick="orderBy($(this),'id')" width="80">{:lang('time')}<div class="ui-table-hsort"></div></th>
                             <th class="ui-table-hcell" width="100">{:lang('action')}</th>
@@ -44,6 +48,8 @@
                             <td><a href="{$vo.url}" class="tips" target="_blank" title="<b>{$vo.host}</b><notempty name='vo.logo'><br><img src='__PUBLIC__/Uploads{$vo.logo}' /></notempty>">{$vo.title}<eq name="vo.is_hot" value="1"> <img src="__PUBLIC__/Assets/img/hot.gif" /></eq></a></td>
                             <td><volist name="vo.tags" id="tags"><neq name="i" value="1">、</neq>{$tags.name}</volist></td>
                             <td>{$vo.description}</td>
+                            <td>通畅</td><!-- 阻塞 -->
+                            <td>{$vo.url}</td>
 							<td>{$vo.click|intval}</td>
                             <td>{$vo.add_time|date="Y-m-d",###}</td>
                             <td class="action">
