@@ -21,7 +21,7 @@ class MainWidget extends Widget
 				array('name'=>'category_manage','list'=>array('category'=>'category_list'))
 			),
 			'Extend'   => array(
-				array('name'=>'extend_manage','list'=>array('link'=>'friend_link','message'=>'guestbook','advert'=>lang('advert_slideshow')))
+				array('name'=>'extend_manage','list'=>array('link'=>'friend_link','message'=>'guestbook','advert'=>lang('advert_list')))
 			)
 		);
 		

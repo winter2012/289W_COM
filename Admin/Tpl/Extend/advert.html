@@ -27,7 +27,8 @@
                         <tr id="row-{$vo.id}">
                             <td>{$vo.id}</td>
                             <td>{$vo.name}</td>
-                            <td><a href="__PUBLIC__/Uploads{$vo.image}" target="_blank"><img src="__PUBLIC__/Uploads{$vo.image}" height="40" /></a></td>
+<!--                            <td><a href="__PUBLIC__/Uploads{$vo.image}" target="_blank"><img src="__PUBLIC__/Uploads{$vo.image}" height="40" /></a></td>-->
+                            <td><a href="{$vo.image}" target="_blank"><img src="{$vo.image}" height="40" /></a></td>
                             <td>{$vo.status|status="image"}</td>
                             <td>{$vo.create_time|date="Y-m-d",###}</td>
                             <td class="action">
