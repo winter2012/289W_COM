@@ -17,7 +17,7 @@ class MainWidget extends Widget
 				array('name'=>'system_info','list'=>array('index'=>'basic_info','setting'=>'system_setting','account'=>'account_setting')),
 			),
 			'Item'   => array(
-				array('name'=>'item','list'=>array('index'=>'item_list','edit'=>'add_item','advert'=>'advert_list','add'=>'add_advert')),
+				array('name'=>'item','list'=>array('index'=>'item_list','edit'=>'add_item'/*,'advert'=>'advert_list','add'=>'add_advert'*/)),
 				array('name'=>'category_manage','list'=>array('category'=>'category_list'))
 			),
 			'Extend'   => array(
